@@ -7,6 +7,7 @@ pipeline {
     MULE_VERSION = '4.4.0'
     BG = "Apisero"
     WORKER = "Micro"
+    M2SETTINGS = "C:\\Users\\riturajrgupta\\.m2\\settings.xml"
   }
   stages {
     stage('Build') {
